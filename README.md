@@ -70,4 +70,9 @@ To create a production build, use npm run build.
 
 Open the browser and point at `localhost:3000`, you should see the login page.
 
+# Questions
+If you have any questions, please feel free to reach out to me (victoria@openvantage.co.za). 
+
+
+
 The original web application was forked from [saucelabs/sample-app-web](https://github.com/saucelabs/sample-app-web) repo.
