@@ -1,12 +1,42 @@
-# taste-the-sauce
+# QA Assessment
 
-> Cypress testing tutorial using the SauceLabs sample web app
+For the QA assessment you will perform some basic manual and automated testing tests on basic swag store website.
 
-![Store login](./images/store1.png)
+## Manual testing
 
-![Store inventory](./images/store2.png)
+Please prepare test cases for the following tasks:
 
-🎓 This is the example application for the course [Testing The Swag Store](https://cypress.tips/courses/swag-store).
+- Logging in to the store.
+- Ordering the items descending order.
+- Adding the most expensive and least expensive items to your cart.
+
+Elaborate on these tests cases as much as you think would be needed.
+
+Submit: A link to the test cases in a Google Sheet or Google Docs file. Please share the document with victoria@openvantage.co.za
+
+## Automated testing
+
+Create automated tests for the three test cases you developed in the previous section. You can use any automated testing framework of your choice. Please add any additional detail that you think I would need to access and execute the tests.
+
+The demo application is configured for Cypress, but you can use any alternative testing framework.
+
+To complete this task, please do the following:
+
+- clone the repo
+- create the automated tasks
+- create a PR with your test to the original repository
+
+Submit: Create a PR to this application
+
+# Running the application
+
+## Requirements
+
+At a minimum, you will require the following applications:
+
+- Git (https://git-scm.com/)
+- Node (https://nodejs.org/en)
+- VS Code (https://code.visualstudio.com/) or any alternative IDE
 
 ## Install
 
@@ -17,6 +47,8 @@ $ node -v
 v16.17.0
 $ npm install
 ```
+
+You will most probably get a number of warnings, you can ignore them.
 
 ## Run
 
@@ -39,7 +71,3 @@ To create a production build, use npm run build.
 Open the browser and point at `localhost:3000`, you should see the login page.
 
 The original web application was forked from [saucelabs/sample-app-web](https://github.com/saucelabs/sample-app-web) repo.
-
-## See also
-
-- Vite version of this application in [bahmutov/taste-the-sauce-vite](https://github.com/bahmutov/taste-the-sauce-vite)
