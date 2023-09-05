@@ -16,7 +16,7 @@ Submit: A link to the test cases in a Google Sheet or Google Docs file. Please s
 
 ## Automated testing
 
-Create automated tests for the three test cases you developed in the previous section. You can use any automated testing framework of your choice. Please add any additional detail that you think I would need to access and execute the tests.
+Create automated tests for the three test cases you developed in the previous section. You can use any automated testing framework of your choice, such as Selenium. Please add any additional detail that you think I would need to access and execute the tests.
 
 The demo application is configured for Cypress, but you can use any alternative testing framework.
 
